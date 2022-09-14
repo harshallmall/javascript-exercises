@@ -34,6 +34,15 @@
   return sum;
 }; */
 
+/* const sumAll = function(min, max) {
+  if (!Number.isInteger(min) || !Number.isInteger(max)) return "ERROR";
+  let sum = 0;
+  for (let i = min; i < max + 1; i++) {
+    sum += i;
+  }
+  return sum;
+}; */
+
 const sumAll = function(min, max) {
   if (!Number.isInteger(min) || !Number.isInteger(max)) return "ERROR";
   let sum = 0;
